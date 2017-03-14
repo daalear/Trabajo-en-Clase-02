@@ -1,0 +1,29 @@
+nav {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;
+    position: fixed;*/
+    top: 0;
+    width: 100%;
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: left;;
+    padding:6px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #0066CC;
+}
+
+body{
+    background-color: black;
+    background-image: url(../imagenes/the_boxer_rebellion.png);
+}
