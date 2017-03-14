@@ -1,29 +1,43 @@
 nav {
 
-    list-style-type: none;
+    /*list-style-type: none;*/
+    background-color: #006666;
     margin: 0;
     padding: 0;
-    /*overflow: hidden;
-    position: fixed;*/
+    overflow: hidden;
+    position: fixed;
     top: 0;
     width: 100%;
-    float: left;
-}
+
+    }
 
 nav a {
-    display: block;
+    display: grid; /* si pongo esto me la deja orizontal*/
     color: white;
     text-align: left;;
-    padding:6px;
-    text-decoration: none;
-
-}
+    padding:30px 40px;
+    text-decoration: none;/* Esto sirve pra quitar el subrayado al texto*/
+    }
 
 nav a:hover {
-    background-color: #0066CC;
-}
+    background-color: #006633;
+    }
 
 body{
     background-color: black;
     background-image: url(../imagenes/the_boxer_rebellion.png);
+    background-repeat:no-repeat;  /*Por defecto se ve en mosaico; si sólo se quiere ver solo una vez se usa repeat*/
+    background-position: center top;  /* Muestra la ubicación de la imagen dentro de la página */
+    background-size: cover;/* contain: Ajusta a la ventana*/
+    background-attachment: fixed; /*atachement: Deja la imagen quieta por lo que sólo se mueve el texto */
+  }
+
+h1{  color: white;
+    
+  }
+
+  img {
+    display: block;
+    margin: auto;
+
 }
