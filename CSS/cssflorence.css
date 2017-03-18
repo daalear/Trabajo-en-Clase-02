@@ -19,42 +19,34 @@ nav a {
     }
 
 nav a:hover {
-    background-color: skyblue;
+    background-color: #006633;
     }
 
 body{
     background-color: black;
-    background-image: url(../imagenes/the_boxer_rebellion.png);
+    background-image: url(../Imagenes/Florence_andthemachinebackground.jpg);
     background-repeat:no-repeat;  /*Por defecto se ve en mosaico; si sólo se quiere ver solo una vez se usa repeat*/
     background-position: center top;  /* Muestra la ubicación de la imagen dentro de la página */
     background-size: cover;/* contain: Ajusta a la ventana*/
     background-attachment: fixed; /*atachement: Deja la imagen quieta por lo que sólo se mueve el texto */
   }
 
-h1{  background-color: antiquewhite;
+h1{  background-color: white;
     
   }
 
   img {
     display: block;
-      margin: auto;
+    margin: auto;
+
 }
 
-h2{  background-color: cadetblue;
+h2{  background-color: black;
+     color: antiquewhite;
      text-align: center;
     
   }
 
-p{
-color: white;
-font-family;
-background-color: black;
-
-    selector {
-  opacity: 0.5;
-  filter:  alpha(opacity=50);
-}
-    
-    
-    
+p {  background-color: white;
+     
 }
