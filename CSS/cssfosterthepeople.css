@@ -22,7 +22,7 @@ nav a:hover {
     }
 body{
     background-color: black;
-    background-image: url(../Imagenes/foster%20the%20people%20backgroung.jpg);
+    background-image: url(../imagenes/foster%20the%20people%20backgroung.jpg);
     background-repeat:no-repeat;  /*Por defecto se ve en mosaico; si sólo se quiere ver solo una vez se usa repeat*/
     background-position: center top;  /* Muestra la ubicación de la imagen dentro de la página */
     background-size: cover;/* contain: Ajusta a la ventana*/
