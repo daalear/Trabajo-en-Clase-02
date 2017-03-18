@@ -1,7 +1,6 @@
 nav {
-
     background-color: dodgerblue;
-    margin: 0px; /*Es para que quede pegado arriba*/ 
+    margin: 0px; /*Es para que quede pegado arriba*/
     padding: 20px; /* Es para el alto del menú*/
     overflow: hidden;
     position: fixed;
@@ -32,7 +31,7 @@ body{
   }
 
 h1{  background-color: antiquewhite;
-    
+
   }
 
   img {
@@ -42,7 +41,7 @@ h1{  background-color: antiquewhite;
 
 h2{  background-color: cadetblue;
      text-align: center;
-    
+
   }
 
 p{
@@ -54,7 +53,7 @@ background-color: black;
   opacity: 0.5;
   filter:  alpha(opacity=50);
 }
-    
-    
-    
+
+
+
 }
